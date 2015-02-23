@@ -66,8 +66,11 @@ if (array_key_exists('activities', $_REQUEST)) {
 $frequency = $_REQUEST['frequency'];
 $booksHaveRead = $_REQUEST['books'];
 $comments = $_REQUEST['comments'];
-$multiplesel = $_REQUEST['multiplesel'];
-$multipleselAsString = '';// @ Самостійно напишіть код, щоб масив опцій відображався як рядок символів
+$multipleselAsString = '';
+if (array_key_exists('multiplesel', $_REQUEST)) {
+    $multiplesel = $_REQUEST['multiplesel'];
+    // @ Самостійно напишіть код, щоб масив опцій відображався як рядок символів
+}
 //$samplefield = $_REQUEST['samplefield']; // як виявилось, disabled поля не відправляються на сервер
 $spamAsString = '';
 if (array_key_exists('spam', $_REQUEST)) {

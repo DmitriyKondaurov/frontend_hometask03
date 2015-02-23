@@ -160,6 +160,7 @@
 </fieldset>
 <input type="submit" value="Отправить">
 </form>
+<a href="list.php">Переглянути уже заповнені дані</a>
 </body>
 </html>
 
