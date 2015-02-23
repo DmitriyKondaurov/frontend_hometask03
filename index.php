@@ -65,19 +65,19 @@
     <p>Что Вы обычно делаете на выходных:</p>
     <ul>
         <li>
-            <input type="checkbox" name="activities[sleeping]" id="sleeping">
+            <input type="checkbox" name="activities[]" id="sleeping" value="sleeping">
             <label for="sleeping">Сплю</label>
         </li>
         <li>
-            <input type="checkbox" name="activities[friends]" id="friends">
+            <input type="checkbox" name="activities[]" id="friends" value="friends">
             <label for="friends">Гуляю с друзьями</label>
         </li>
         <li>
-            <input type="checkbox" name="activities[fishing]" id="fishing">
+            <input type="checkbox" name="activities[]" id="fishing" value="fishing">
             <label for="fishing">Хожу на рыбалку</label>
         </li>
         <li>
-            <input type="checkbox" name="activities[games]" id="games">
+            <input type="checkbox" name="activities[]" id="games" value="games">
             <label for="games">Играю в игры</label>
         </li>
     </ul>
@@ -130,15 +130,15 @@
     <i>Выберите категории</i>
     <ul>
         <li>
-            <input type="checkbox" name="spam[equipment]" id="equipment" value="1">
+            <input type="checkbox" name="spam[]" id="equipment" value="equipment">
             <label for="equipment">Оборудование</label>
         </li>
         <li>
-            <input type="checkbox" name="spam[cooking]" id="cooking">
+            <input type="checkbox" name="spam[]" id="cooking" value="cooking">
             <label for="cooking">Как приготовить обеды</label>
         </li>
         <li>
-            <input type="checkbox" name="spam[earn]" id="earn">
+            <input type="checkbox" name="spam[]" id="earn" value="earn">
             <label for="earn">Заработай миллион за два дня!</label>
         </li>
     </ul>
